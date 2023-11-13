@@ -1,0 +1,400 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Inter', sans-serif;;
+    color: black;
+    background-color: #ffffff;
+    
+}
+
+
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contenedorinicio{
+    background-image: url(img/montanadifuso.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+
+.barra{
+    display: flex;
+    height: 75px;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.621);
+    color: black;
+    
+  
+}
+
+.logo{
+    width: 80px;
+    height: 90px;
+}
+  
+.linknav{
+    
+    width: 900px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: black;
+
+}
+
+.contenedorpase{
+    width: 900px;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: rgba(162, 25, 25, 0.803);
+    border-radius: 10px;
+}
+
+.inicio {
+    text-align: center;
+    color: white;
+    font-weight: 20px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin: 0 auto;
+  
+
+}
+
+/** seccion invitado **/
+
+#invitados {
+    text-align: center;
+    background-color: rgb(63, 60, 60);
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+}
+
+.contenedorinvitados{
+    width: 900px;
+    padding: 15px 15px 5px 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.fotos{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-content:center;
+    align-items: baseline;
+    padding: 30px 0;
+    flex-wrap: wrap;
+
+
+}
+
+.foto1{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+
+    
+}
+
+.foto2{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 35px 35px;
+    
+
+}
+
+.foto3{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.foto4{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+   
+
+}
+
+.foto5{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 35px;
+}
+
+.foto6{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    }
+
+    .nombre{
+        width: 250px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+
+#obtenetupase{
+    background-image: url(img/piedrasdifuso.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.pase {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.pase-contenedor{
+    width: 900px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 180px;
+  
+}
+
+.article{
+    width: 310px;
+    padding: 10px;
+    
+}
+.uno{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.dos{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    margin: 30px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tres{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    
+
+
+.button {
+    display: block; 
+    margin-top: 70px;
+    margin-bottom: 32px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #a70000;
+    border-radius: 10px;
+    
+
+}
+
+.nosotros {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    margin: 20px 0 70px 0;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.contenedornosotros{
+    width: 1200px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 350px;
+
+}
+
+.texto{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texto1{
+    padding-bottom: 48px;
+}
+
+
+.contacto {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    background-image: url(img/montanadifuso.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.contenedorcontacto{
+    width: 900px;
+    padding: 15px 15px 50px 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: rgba(30, 29, 29, 0.803);
+    border-radius: 10px;
+    color: #ffffff;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 0 465px;
+    list-style-type: none;
+  
+}
+
+
+.facebook{
+    margin: 0 20px 0 0;
+    align-content: center;
+}
+
+.instagram{
+    margin: 0 0 0 20px;
+    align-content: center;
+}
+
+.subir{
+    align-items: center;
+    
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.barracopy{
+    display: flex;
+    height: 50px;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.628);
+    color: white;
+    text-align: center;
+}
+
+.derechos{
+    padding-right: 50px;
+}
+
+.footercontenedor{
+    width: 1200px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding-left: 210px;
+}
